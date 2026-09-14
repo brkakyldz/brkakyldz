@@ -8,11 +8,6 @@ pipeline reports that it verified something, there is a record you can open and
 check. A green test that passes because the feature never ran is the bug I keep
 building against.
 
-**Right now:** a hotel operations agent that owns a guest's problem from the
-first WhatsApp message to the guest's own confirmation that it's gone, and a
-transcript-grounded knowledge extractor that refuses to certify what it can't
-quote.
-
 ### Selected work
 
 | | |
