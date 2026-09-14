@@ -30,3 +30,4 @@ quote.
 ### Elsewhere
 
 [Portfolio](https://brkakyldz.github.io/) · [LinkedIn](https://www.linkedin.com/in/berkeakyildiz/) · berkeakyildz@gmail.com
+
