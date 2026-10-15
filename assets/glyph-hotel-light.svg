@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -8 144 64" width="288" height="128" role="img" aria-label="A guest's message passes the agent and reaches a code gate before it is written to the database; one branch goes to a manager's approval, and a change at the hotel sends a message back to the guest.">
+<title>A guest's message passes the agent and reaches a code gate before it is written to the database; one branch goes to a manager's approval, and a change at the hotel sends a message back to the guest.</title>
+<style>
+.ln{fill:none;stroke:#978d7b;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.faint{stroke-dasharray:2 3}
+.nd{fill:#ffffff;stroke:#3a4043;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.solid{fill:#3a4043}
+.pk{fill:#b0573a}
+.ring{fill:none;stroke:#b0573a;stroke-width:1.1;vector-effect:non-scaling-stroke}
+</style>
+<path class="ln" d="M6 30H120"/><path class="ln" d="M76 30C76 40 80 44 90 44H100"/><path class="ln faint" d="M124 26C112 6 18 6 8 26"/><circle class="nd" cx="6" cy="30" r="2.6"/><circle class="nd" cx="38" cy="30" r="3.8"/><rect class="nd solid" x="72" y="26" width="8" height="8"/><circle class="nd" cx="102" cy="44" r="2.6"/><rect class="nd" x="120" y="26" width="8" height="8"/><circle class="pk" r="2.3" opacity="0"><animateMotion dur="8s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.18;.26;.42;1" keyPoints="0;.3;.3;1;1" path="M6 30H120"/><animate attributeName="opacity" dur="8s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.02;.4;.44;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="8s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.26;.34;1" keyPoints="0;0;1;1" path="M76 30C76 40 80 44 90 44H100"/><animate attributeName="opacity" dur="8s" begin="0.0s" repeatCount="indefinite" values="0;0;1;0;0" keyTimes="0;.25;.27;.36;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="8s" begin="4s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.36;1" keyPoints="0;1;1" path="M124 26C112 6 18 6 8 26"/><animate attributeName="opacity" dur="8s" begin="4s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.34;.38;1"/></circle>
+</svg>

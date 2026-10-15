@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -8 144 64" width="288" height="128" role="img" aria-label="A pipeline: collect, dedupe and enrich, then summarise in parallel branches, rank and persist.">
+<title>A pipeline: collect, dedupe and enrich, then summarise in parallel branches, rank and persist.</title>
+<style>
+.ln{fill:none;stroke:#6b7480;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.faint{stroke-dasharray:2 3}
+.nd{fill:#0d1117;stroke:#c9d1d9;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.solid{fill:#c9d1d9}
+.pk{fill:#d6774f}
+.ring{fill:none;stroke:#d6774f;stroke-width:1.1;vector-effect:non-scaling-stroke}
+</style>
+<path class="ln" d="M6 24H126"/><path class="ln" d="M52 24C62 24 62 10 72 10H88C98 10 98 24 106 24"/><path class="ln" d="M52 24C62 24 62 38 72 38H88C98 38 98 24 106 24"/><circle class="nd" cx="6" cy="24" r="2.6"/><circle class="nd" cx="22" cy="24" r="2.6"/><circle class="nd" cx="38" cy="24" r="2.6"/><circle class="nd" cx="80" cy="10" r="2.6"/><circle class="nd" cx="80" cy="24" r="2.6"/><circle class="nd" cx="80" cy="38" r="2.6"/><circle class="nd" cx="116" cy="24" r="2.6"/><circle class="nd" cx="126" cy="24" r="2.6"/><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.28;.58;.72;1" keyPoints="0;.35;.85;1;1" path="M6 24H52C62 24 62 10 72 10H88C98 10 98 24 106 24H126"/><animate attributeName="opacity" dur="6s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.7;.76;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.28;.58;.72;1" keyPoints="0;.383;.833;1;1" path="M6 24H126"/><animate attributeName="opacity" dur="6s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.7;.76;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.28;.58;.72;1" keyPoints="0;.35;.85;1;1" path="M6 24H52C62 24 62 38 72 38H88C98 38 98 24 106 24H126"/><animate attributeName="opacity" dur="6s" begin="0.0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.7;.76;1"/></circle>
+</svg>
