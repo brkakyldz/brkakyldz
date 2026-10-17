@@ -1,5 +1,3 @@
-<a href="https://brkakyldz.github.io/"><img src="assets/sea-hero.svg" width="100%" alt="Berke Akyıldız — a sailboat on a deep blue sea, with sunlight glittering on the water."></a>
-
 I build AI agents that read data, call tools and make changes inside a system, with a person approving the steps that matter. Most of my time goes into the parts around the model: the tools it can use, the rules it has to follow, and the checks that show what it actually did.
 
 <a href="https://github.com/brkakyldz/Hotel_Operations_Agent"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-hotel-narrow.svg"><img src="assets/sea-card-hotel.svg" width="49%" alt="Hotel Operations Agent: an AI concierge for a small hotel. Hotel rules run as code, and a manager approves what it asks for."></picture></a> <a href="https://github.com/brkakyldz/llm-experiments"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-experiments-narrow.svg"><img src="assets/sea-card-experiments.svg" width="49%" alt="LLM Experiments: small experiments on how agents behave at work, graded on the trace as well as the reply."></picture></a>
