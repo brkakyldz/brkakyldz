@@ -1,12 +1,28 @@
-I build AI agents that read data, call tools and make changes inside a system, with a person approving the steps that matter. Most of my time goes into the parts around the model: the tools it can use, the rules it has to follow, and the checks that show what it actually did.
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-header-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile-header-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
+  <img src="assets/profile-header-light.svg" width="1200" alt="Berke Akyıldız — Applied AI and agent systems. Antalya, Türkiye.">
+</picture>
 
-<a href="https://github.com/brkakyldz/Hotel_Operations_Agent"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-hotel-narrow.svg"><img src="assets/sea-card-hotel.svg" width="49%" alt="Hotel Operations Agent: an AI concierge for a small hotel. Hotel rules run as code, and a manager approves what it asks for."></picture></a> <a href="https://github.com/brkakyldz/llm-experiments"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-experiments-narrow.svg"><img src="assets/sea-card-experiments.svg" width="49%" alt="LLM Experiments: small experiments on how agents behave at work, graded on the trace as well as the reply."></picture></a>
-<a href="https://github.com/brkakyldz/second-brain-os"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-brain-narrow.svg"><img src="assets/sea-card-brain.svg" width="49%" alt="Second Brain OS: a memory for Claude Code and Codex that a person can read, correct and undo. Git is the database."></picture></a> <a href="https://github.com/brkakyldz/ai-research-agent"><picture><source media="(max-width: 600px)" srcset="assets/sea-card-digest-narrow.svg"><img src="assets/sea-card-digest.svg" width="49%" alt="AI Digest: reads the day's AI news, merges the duplicates, then summarises and ranks it into one page."></picture></a>
+I build AI agents and developer tools, mainly in Python. My work focuses on tool use, memory, and evaluations that check both an agent’s answer and its actions.
 
-<sub>Smaller builds: [GitHub Issue Triage Agent](https://github.com/brkakyldz/github-issue-triage-agent) · [Support Ticket Router](https://github.com/brkakyldz/support-ticket-router) · [Salon Booking Agent](https://github.com/brkakyldz/salon-booking-agent) · [TechInves](https://github.com/brkakyldz/tech_inves)</sub>
+[Portfolio](https://brkakyldz.github.io/) · [LinkedIn](https://www.linkedin.com/in/berkeakyildiz/) · [Email](mailto:berkeakyildz@gmail.com)
 
-<picture><source media="(max-width: 600px)" srcset="assets/sea-stack-narrow.svg"><img src="assets/sea-stack.svg" width="100%" alt="Tools: Python, TypeScript, OpenAI Agents SDK, LangGraph, LangChain, Deep Agents, MCP, OpenAI API, Anthropic API, FastAPI, SQLAlchemy, Pydantic, PostgreSQL, LangSmith, pytest, Docker, Claude Code, Codex"></picture>
+### Selected work
 
-<p align="center"><a href="https://brkakyldz.github.io/">Portfolio</a> · <a href="https://www.linkedin.com/in/berkeakyildiz/">LinkedIn</a> · <a href="mailto:berkeakyildz@gmail.com">berkeakyildz@gmail.com</a></p>
+**[Hotel Operations Agent](https://github.com/brkakyldz/Hotel_Operations_Agent)**<br>
+An AI concierge for a simulated hotel, with business rules enforced in code and manager approval for restricted requests.
 
-<img src="assets/sea-shore.svg" width="100%" alt="">
+**[LLM Experiments](https://github.com/brkakyldz/llm-experiments)**<br>
+Experiments on agent behavior, with saved traces, checks on tool use, and offline replay.
+
+**[Second Brain OS](https://github.com/brkakyldz/second-brain-os)**<br>
+Shared memory for coding agents, stored as readable Markdown and versioned with Git.
+
+**[AI Digest](https://github.com/brkakyldz/ai-research-agent)**<br>
+A local pipeline that collects AI news, removes duplicates, and produces a ranked daily briefing.
+
+### Tools I use
+
+Python, TypeScript, OpenAI Agents SDK, LangGraph, LangChain, FastAPI, and MCP.
