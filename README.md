@@ -1,42 +1,54 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile/hero-mobile.jpg">
-  <img src="assets/profile/hero.jpg" width="1200" alt="Berke Akyıldız — Applied AI and agent systems. Tool use, memory, and evaluation.">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile/hello-mobile.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/hello.png">
+  <source media="(max-width: 600px)" srcset="assets/profile/hello-mobile.gif">
+  <img src="assets/profile/hello.gif" width="1200" alt="Hey, I'm Berke Akyıldız. A small glass character looks around, probably checking a trace.">
 </picture>
 
-I started building with AI to automate my own research and notes. I now build agents and developer tools, with a focus on tool use, memory, and evaluation.
+I build AI agents and tools for my own research and notes. I like figuring out which tools an agent needs, what it should remember, and how to check what it actually did.
 
-[Portfolio ↗](https://brkakyldz.github.io/) · [LinkedIn ↗](https://www.linkedin.com/in/berkeakyildiz/) · [Email ↗](mailto:berkeakyildz@gmail.com)
+[Portfolio ↗](https://brkakyldz.github.io/) · [LinkedIn ↗](https://www.linkedin.com/in/berkeakyildiz/) · [Say hello ↗](mailto:berkeakyildz@gmail.com)
 
-### Selected work
+### A few things I've built
 
-<p>
 <a href="https://github.com/brkakyldz/Hotel_Operations_Agent">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/hotel-mobile.jpg">
-    <img src="assets/profile/hotel.jpg" width="1200" alt="Hotel Operations Agent: An AI concierge for a simulated hotel, with business rules in code and manager approval for restricted requests. PYTHON / OPENAI AGENTS SDK / FASTAPI.">
+    <source media="(max-width: 600px)" srcset="assets/profile/hotel-mobile.png">
+    <img src="assets/profile/hotel.png" width="1200" alt="Hotel Operations Agent — An AI concierge, with someone to ask.">
   </picture>
 </a>
+
+An AI concierge for a simulated hotel. It handles guest requests through typed tools, follows business rules in code, and asks a manager to approve restricted actions.
+
 <a href="https://github.com/brkakyldz/llm-experiments">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/experiments-mobile.jpg">
-    <img src="assets/profile/experiments.jpg" width="1200" alt="LLM Experiments: Experiments on agent behavior, with recorded traces, checks on tool use, and offline replay. PYTHON / TOOL USE / TRACE EVALUATION.">
+    <source media="(max-width: 600px)" srcset="assets/profile/experiments-mobile.png">
+    <img src="assets/profile/experiments.png" width="1200" alt="LLM Experiments — Reading between the tool calls.">
   </picture>
 </a>
+
+An experiment on the gap between an agent’s final reply and its tool calls. Recorded traces and offline replay let me inspect what a reply-only evaluation missed.
+
 <a href="https://github.com/brkakyldz/second-brain-os">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/brain-mobile.jpg">
-    <img src="assets/profile/brain.jpg" width="1200" alt="Second Brain OS: Shared memory for coding agents, stored as readable Markdown and versioned with Git. MARKDOWN / GIT / NODE.JS.">
+    <source media="(max-width: 600px)" srcset="assets/profile/brain-mobile.png">
+    <img src="assets/profile/brain.png" width="1200" alt="Second Brain OS — For the next “where was I?”">
   </picture>
 </a>
+
+Shared memory for coding agents, stored in Markdown and versioned with Git. I built it so the next session can pick up the context without starting over.
+
 <a href="https://github.com/brkakyldz/ai-research-agent">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/digest-mobile.jpg">
-    <img src="assets/profile/digest.jpg" width="1200" alt="AI Digest: A local pipeline that collects AI news, removes duplicates, and produces a ranked daily briefing. PYTHON / LANGGRAPH / FASTAPI.">
+    <source media="(max-width: 600px)" srcset="assets/profile/digest-mobile.png">
+    <img src="assets/profile/digest.png" width="1200" alt="AI Digest — Fewer tabs. A daily briefing.">
   </picture>
 </a>
-</p>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/profile/tools-mobile.jpg">
-  <img src="assets/profile/tools.jpg" width="1200" alt="Tools I use. Languages and backend: Python, TypeScript, FastAPI, Pydantic. Agents and integrations: OpenAI Agents SDK, LangGraph, LangChain, MCP. Testing and workflow: pytest, LangSmith, Git, Docker.">
-</picture>
+A local pipeline that collects AI news, removes duplicates, and turns it into a ranked daily briefing.
+
+### Usually working with
+
+**Python & TypeScript** · FastAPI · Pydantic<br>
+**Agents & integrations** · OpenAI Agents SDK · LangGraph · LangChain · MCP<br>
+**Testing & workflow** · pytest · LangSmith · Git · Docker
