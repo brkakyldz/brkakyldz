@@ -49,6 +49,6 @@ A local pipeline that collects AI news, removes duplicates, and turns it into a 
 
 ### Usually working with
 
-**Python & TypeScript** · FastAPI · Pydantic<br>
-**Agents & integrations** · OpenAI Agents SDK · LangGraph · LangChain · MCP<br>
-**Testing & workflow** · pytest · LangSmith · Git · Docker
+**Python** · FastAPI · Pydantic · REST · SQL · SQLAlchemy · SQLite · PostgreSQL<br>
+**Agents & integrations** · OpenAI Agents SDK · LangGraph · LangChain · OpenAI API · Anthropic API<br>
+**Testing & workflow** · pytest · LangSmith · Git · GitHub Actions · Docker · Claude Code · Codex
