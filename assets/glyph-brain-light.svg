@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -8 144 64" width="288" height="128" role="img" aria-label="Three inputs, one output: notes pass a check before they reach the memory file that every session loads.">
+<title>Three inputs, one output: notes pass a check before they reach the memory file that every session loads.</title>
+<style>
+.ln{fill:none;stroke:#978d7b;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.faint{stroke-dasharray:2 3}
+.nd{fill:#ffffff;stroke:#3a4043;stroke-width:1.15;vector-effect:non-scaling-stroke}
+.solid{fill:#3a4043}
+.pk{fill:#b0573a}
+.ring{fill:none;stroke:#b0573a;stroke-width:1.1;vector-effect:non-scaling-stroke}
+</style>
+<path class="ln" d="M6 8C30 8 34 24 58 24"/><path class="ln" d="M6 24H58"/><path class="ln" d="M6 40C30 40 34 24 58 24"/><path class="ln" d="M58 24H120"/><path class="ln" d="M90 15V33"/><circle class="nd" cx="6" cy="8" r="2.6"/><circle class="nd" cx="6" cy="24" r="2.6"/><circle class="nd" cx="6" cy="40" r="2.6"/><circle class="nd" cx="58" cy="24" r="3.8"/><rect class="nd solid" x="120" y="20" width="8" height="8"/><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.7;1" keyPoints="0;1;1" path="M6 8C30 8 34 24 58 24H120"/><animate attributeName="opacity" dur="6s" begin="0s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.04;.66;.71;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="2s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.7;1" keyPoints="0;1;1" path="M6 40C30 40 34 24 58 24H120"/><animate attributeName="opacity" dur="6s" begin="2s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.04;.66;.71;1"/></circle><circle class="pk" r="2.3" opacity="0"><animateMotion dur="6s" begin="4s" repeatCount="indefinite" calcMode="linear" keyTimes="0;.7;1" keyPoints="0;1;1" path="M6 24H120"/><animate attributeName="opacity" dur="6s" begin="4s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.04;.66;.71;1"/></circle>
+</svg>

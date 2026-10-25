@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>berke. - profile artwork</title>
+<!-- Source of every image in assets/profile: the hero and the four project cards.
+     tools/export_profile.py renders this page (Windows system fonts Bahnschrift,
+     Segoe UI Variable, Segoe Print and Consolas are intentional) at device scale 2.
+     Desktop images are drawn at 846 px, phone images at 343 px (?w=343), where the
+     @container (max-width:600px) rules below switch the layout. The hero motion is
+     the CSS 5 s loop; the exporter pauses it and steps document.getAnimations(). -->
+<style>
+/* ---------- page: the context the artwork inherits from the README column ---------- */
+:root{--w:846px}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{width:var(--w);font-family:"Segoe UI",system-ui,sans-serif;font-size:16px;line-height:1.5;background:transparent}
+
+/* ---------- images ---------- */
+.img{container-type:inline-size;position:relative;display:block;margin:0 0 14px}
+.img.hero-wrap{margin-bottom:20px}
+
+/* ===== hero: same structure as before, drawn at the width GitHub shows ===== */
+.hero{position:relative;height:312px;border-radius:26px;overflow:hidden;background:#4d686f;color:#f5efe5;isolation:isolate;font-family:"Segoe UI Variable Display","Segoe UI Variable Text","Segoe UI",system-ui,sans-serif}
+.hero::before{content:"";position:absolute;width:460px;height:460px;border-radius:50%;left:430px;top:-206px;background:radial-gradient(ellipse at 40% 60%,#d3c8b5,#90a3a3 43%,#4d686f 70%);filter:blur(10px);opacity:.84;z-index:-1}
+.orbit{position:absolute;left:530px;top:26px;width:276px;height:276px;border:1px solid #e6dbca78;border-radius:50%;transform:rotate(-25deg) scaleX(.72)}
+.orbit.second{transform:rotate(38deg) scaleX(.67);border-color:#e6dbca44}
+.spark{position:absolute;left:506px;top:38px;color:#f0e5d3;font:40px Georgia,serif;transform:rotate(15deg)}
+.greeting{position:absolute;left:46px;top:28px;font-size:27px;letter-spacing:-.3px;color:#f7f1e7}
+.name{position:absolute;left:40px;top:62px;margin:0;font:650 126px/1 Bahnschrift,"Segoe UI",sans-serif;letter-spacing:-6.5px;color:#f6f0e6}
+.name .dot{color:#d3b98f}
+.handle{position:absolute;left:46px;top:200px;font:17px Consolas,"Cascadia Mono",monospace;letter-spacing:.2px;color:#e3ebe6}
+.note{position:absolute;left:46px;bottom:34px;font:22px/1.25 "Segoe Print","Bradley Hand",cursive;color:#eadbc4;transform:rotate(-2deg);transform-origin:left bottom}
+.note::after{content:"";position:absolute;left:0;bottom:-6px;width:112px;height:8px;border-bottom:1.5px solid #eadbc4;border-radius:50%}
+.glass{position:absolute;left:568px;top:58px;font-size:168px;width:1em;height:1.126em;transform:rotate(13deg);border-radius:.413em .413em .37em .37em;background:linear-gradient(140deg,#f8f0e681,#d6d9d22b 32%,#e4ddca80 70%,#f7ecdac4);border:1px solid #f6f1e393;box-shadow:inset .022em .017em .035em #ffffef44,inset -.035em -.035em .074em #213c4845,.065em .13em .165em #173b4259;backdrop-filter:blur(12px)}
+.face{position:absolute;left:.23em;top:.396em;display:flex;gap:.135em}
+.eye{width:.087em;height:.152em;background:#2f4a50;border-radius:50%;transform:rotate(-13deg)}
+.smile{position:absolute;left:.365em;top:.604em;width:.157em;height:.078em;border-bottom:.014em solid #2f4a50;border-radius:0 0 50% 50%}
+.glint{position:absolute;right:.117em;top:.152em;width:.23em;height:.478em;border-right:.009em solid #fff8e790;border-radius:50%;transform:rotate(-22deg)}
+.bead{position:absolute;left:778px;top:62px;width:21px;height:21px;border-radius:50%;background:#d8c1a4;box-shadow:inset 1.5px 2px 3px #fff3df,2px 4px 8px #24464c66}
+
+/* motion: 5s loop, as before */
+.hero.run .glass{animation:float 5s ease-in-out infinite}
+.hero.run .face{animation:blink 5s infinite}
+.hero.run .eye{animation:look 5s ease-in-out infinite}
+.hero.run .bead{animation:dot 5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0) rotate(13deg)}50%{transform:translateY(-8px) rotate(8deg)}}
+@keyframes look{0%,100%{translate:0 0}40%,70%{translate:.017em -.013em}}
+@keyframes blink{0%,76%,83%,100%{scale:1 1}79%{scale:1 .08}}
+@keyframes dot{0%,100%{transform:translate(0,0)}50%{transform:translate(-9px,11px)}}
+@media (prefers-reduced-motion:reduce){.hero.run *{animation:none!important}}
+
+/* hero on a phone: its own layout and its own exported image */
+@container (max-width:600px){
+  .hero{height:336px;border-radius:22px}
+  .hero::before{width:360px;height:360px;left:150px;top:96px}
+  .orbit{left:150px;top:128px;width:200px;height:200px}
+  .spark{left:262px;top:112px;font-size:30px}
+  .greeting{left:26px;top:26px;font-size:21px}
+  .name{left:20px;top:46px;font-size:96px;letter-spacing:-5px}
+  .handle{left:27px;top:150px;font-size:15px}
+  .note{left:27px;bottom:30px;font-size:19px;max-width:178px}
+  .glass{left:196px;top:168px;font-size:112px}
+  .bead{left:318px;top:158px;width:16px;height:16px}
+}
+
+/* ===== project cards: the earlier layout, with a plain one-line description ===== */
+.card{position:relative;display:block;overflow:hidden;min-height:128px;padding:21px 140px 18px 60px;border-radius:19px;background:#eee8de;color:#2f4d54;text-decoration:none!important;isolation:isolate;font-family:"Segoe UI Variable Display","Segoe UI Variable Text","Segoe UI",system-ui,sans-serif}
+.card::before{content:"";position:absolute;width:304px;height:304px;right:-56px;top:-128px;border:1px solid #53717942;border-radius:50%}
+.card::after{content:"";position:absolute;width:262px;height:262px;right:-21px;top:-113px;border:1px solid #5371792c;border-radius:50%;transform:scaleX(.65) rotate(30deg)}
+.c-index{position:absolute;left:21px;top:25px;font:13px Consolas,"Cascadia Mono",monospace;color:#66777a}
+.c-spark{position:absolute;left:22px;bottom:19px;font-size:16px;color:#537179}
+.c-title{display:block;font:550 32px/1.1 Bahnschrift,"Segoe UI",sans-serif;letter-spacing:-1.2px;color:#2f4d54}
+.c-cap{display:block;margin-top:9px;font-size:17px;line-height:1.35;color:#44595c}
+.c-tag{display:block;margin-top:13px;font:13px/1.3 Consolas,"Cascadia Mono",monospace;letter-spacing:.8px;text-transform:uppercase;color:#66766f}
+.c-tag b{color:#7a5a1f;font-weight:700}
+.disc{position:absolute;right:30px;top:25px;width:77px;height:77px;border-radius:37%;background:linear-gradient(130deg,#d5d9ce,#9aafa9 60%,#6f8987);transform:rotate(16deg);border:1px solid #fff8;box-shadow:inset 4px 5px 13px #fff9,7px 9px 20px #53717926;z-index:1}
+.disc svg{position:absolute;left:22px;top:21px;width:32px;height:32px;transform:rotate(-16deg);stroke:#35565c;fill:none;stroke-width:1.8}
+@container (max-width:600px){
+  .card{padding:18px 66px 17px 54px;min-height:120px;border-radius:19px}
+  .card::before{width:170px;height:170px;top:-86px;right:-104px}
+  .card::after{display:none}
+  .c-index{left:20px;top:22px}
+  .c-title{font-size:24px;letter-spacing:-.9px}
+  .c-cap{font-size:15px;margin-top:7px}
+  .c-tag{font-size:12px;letter-spacing:.4px;margin-top:10px}
+  .c-spark{display:none}
+  .disc{width:44px;height:44px;right:16px;top:16px}
+  .disc svg{width:20px;height:20px;left:12px;top:12px}
+}
+</style>
+</head>
+<body>
+
+<!-- header image -->
+<div class="img hero-wrap" id="hero-wrap">
+  <section class="hero run" id="hero" aria-label="Hey, I'm Berke Akyıldız. I build AI agents and check what they do.">
+    <div class="orbit"></div><div class="orbit second"></div>
+    <div class="spark">✳</div>
+    <div class="greeting">hey, I'm</div>
+    <h1 class="name">berke<span class="dot">.</span></h1>
+    <div class="handle">Akyıldız / @brkakyldz</div>
+    <div class="note">I build AI agents and check what they do.</div>
+    <div class="glass" aria-hidden="true"><div class="face"><div class="eye"></div><div class="eye"></div></div><div class="smile"></div><div class="glint"></div></div>
+    <div class="bead"></div>
+  </section>
+</div>
+
+<div class="img" id="issuepilot"><a class="card" href="#"><span class="c-index">01</span><span class="c-spark">✳</span>
+  <span class="c-title">IssuePilot</span>
+  <span class="c-cap">A checked analysis on every new GitHub issue.</span>
+  <span class="c-tag">Python · GitHub Actions · Claude Code</span>
+  <span class="disc"><svg viewBox="0 0 48 48"><path d="M12 36 36 12M13 12H36V35"/></svg></span></a></div>
+
+<div class="img" id="brain"><a class="card" href="#"><span class="c-index">02</span><span class="c-spark">✳</span>
+  <span class="c-title">Second Brain OS</span>
+  <span class="c-cap">A memory for coding agents, in Markdown and Git.</span>
+  <span class="c-tag">Markdown · Git · Claude Code · Codex</span>
+  <span class="disc"><svg viewBox="0 0 48 48"><path d="M12 36 36 12M13 12H36V35"/></svg></span></a></div>
+
+<div class="img" id="hotel"><a class="card" href="#"><span class="c-index">03</span><span class="c-spark">✳</span>
+  <span class="c-title">Hotel Operations Agent</span>
+  <span class="c-cap">An AI concierge for a simulated hotel.</span>
+  <span class="c-tag">Python · OpenAI Agents SDK · FastAPI</span>
+  <span class="disc"><svg viewBox="0 0 48 48"><path d="M12 36 36 12M13 12H36V35"/></svg></span></a></div>
+
+<div class="img" id="digest"><a class="card" href="#"><span class="c-index">04</span><span class="c-spark">✳</span>
+  <span class="c-title">AI News Digest</span>
+  <span class="c-cap">A daily AI news page from sixteen RSS feeds.</span>
+  <span class="c-tag">Python · LangGraph · FastAPI</span>
+  <span class="disc"><svg viewBox="0 0 48 48"><path d="M12 36 36 12M13 12H36V35"/></svg></span></a></div>
+
+<script>
+// ?w=343 draws the phone variants (the @container rules switch at 600 px).
+const w = new URLSearchParams(location.search).get('w');
+if (w) document.documentElement.style.setProperty('--w', w + 'px');
+</script>
+</body>
+</html>
