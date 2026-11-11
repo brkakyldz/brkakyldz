@@ -11,6 +11,13 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
 
 ### A few things I've built
 
+<a href="https://github.com/brkakyldz/cro-lens">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/profile/cro-lens-mobile.png">
+    <img src="assets/profile/cro-lens.png" width="1200" alt="cro-lens. Landing page teardowns that quote the page.">
+  </picture>
+</a>
+
 <a href="https://github.com/brkakyldz/IssuePilot">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/profile/issuepilot-mobile.png">
@@ -18,10 +25,17 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
   </picture>
 </a>
 
-<a href="https://github.com/brkakyldz/second-brain-os">
+<a href="https://github.com/brkakyldz/ArchDrawer">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/brain-mobile.png">
-    <img src="assets/profile/brain.png" width="1200" alt="Second Brain OS. A memory for coding agents, in Markdown and Git.">
+    <source media="(max-width: 600px)" srcset="assets/profile/archdrawer-mobile.png">
+    <img src="assets/profile/archdrawer.png" width="1200" alt="ArchDrawer. Architecture drawings read from your code.">
+  </picture>
+</a>
+
+<a href="https://github.com/brkakyldz/memcellar">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/profile/memcellar-mobile.png">
+    <img src="assets/profile/memcellar.png" width="1200" alt="memcellar. A memory for coding agents, in Markdown and Git.">
   </picture>
 </a>
 
@@ -32,17 +46,17 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
   </picture>
 </a>
 
-<a href="https://github.com/brkakyldz/ai-research-agent">
+<a href="https://github.com/brkakyldz/ai-news-digest">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/profile/digest-mobile.png">
     <img src="assets/profile/digest.png" width="1200" alt="AI News Digest. A daily AI news page from sixteen RSS feeds.">
   </picture>
 </a>
 
-Also: [LLM Experiments](https://github.com/brkakyldz/llm-experiments) · [Architecture Drawer](https://github.com/brkakyldz/ArchDrawer) · [Salon booking](https://github.com/brkakyldz/salon-booking-agent) · [Support router](https://github.com/brkakyldz/support-ticket-router) · [Issue triage](https://github.com/brkakyldz/github-issue-triage-agent)
+Also: [LLM Experiments](https://github.com/brkakyldz/llm-experiments) · [Salon booking](https://github.com/brkakyldz/salon-booking-agent) · [Support router](https://github.com/brkakyldz/support-ticket-router) · [Issue triage](https://github.com/brkakyldz/github-issue-triage-agent)
 
 ### Usually working with
 
 **Python** · FastAPI · Pydantic · REST · SQL · SQLAlchemy · SQLite · PostgreSQL<br>
 **Agents & integrations** · OpenAI Agents SDK · LangGraph · LangChain · OpenAI API · Anthropic API<br>
-**Testing & workflow** · pytest · LangSmith · Git · GitHub Actions · Docker · Claude Code · Codex
+**Testing & workflow** · pytest · Playwright · LangSmith · Git · GitHub Actions · Docker · Claude Code · Codex

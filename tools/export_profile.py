@@ -8,8 +8,9 @@ Writes to assets/profile/:
 
     hello.webp, hello-mobile.webp   animated hero, 5 s loop
     hello.png,  hello-mobile.png    still hero (reduced motion) = the loop's first frame
-    issuepilot.png, brain.png, hotel.png, digest.png      project cards
-    issuepilot-mobile.png, ...                            phone layout of the cards
+    cro-lens.png, issuepilot.png, archdrawer.png,         project cards
+    memcellar.png, hotel.png, digest.png
+    cro-lens-mobile.png, ...                              phone layout of the cards
 
 Everything is rendered at device scale factor 2: desktop images are drawn at
 846 px, phone images at 343 px, where the page's @container (max-width:600px)
@@ -57,7 +58,7 @@ VARIANTS = {
     "desktop": {"width": 846, "viewport": 900, "suffix": ""},
     "phone": {"width": 343, "viewport": 400, "suffix": "-mobile"},
 }
-CARDS = ["issuepilot", "brain", "hotel", "digest"]
+CARDS = ["cro-lens", "issuepilot", "archdrawer", "memcellar", "hotel", "digest"]
 
 
 def freeze(page, t_ms: float) -> None:
