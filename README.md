@@ -14,7 +14,7 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
 <a href="https://github.com/brkakyldz/cro-lens">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/profile/cro-lens-mobile.png">
-    <img src="assets/profile/cro-lens.png" width="1200" alt="cro-lens. Landing page teardowns that quote the page.">
+    <img src="assets/profile/cro-lens.png" width="1200" alt="Cro-Lens. Landing page teardowns that quote the page.">
   </picture>
 </a>
 
@@ -25,17 +25,10 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
   </picture>
 </a>
 
-<a href="https://github.com/brkakyldz/ArchDrawer">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile/archdrawer-mobile.png">
-    <img src="assets/profile/archdrawer.png" width="1200" alt="ArchDrawer. Architecture drawings read from your code.">
-  </picture>
-</a>
-
 <a href="https://github.com/brkakyldz/memcellar">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/profile/memcellar-mobile.png">
-    <img src="assets/profile/memcellar.png" width="1200" alt="memcellar. A memory for coding agents, in Markdown and Git.">
+    <img src="assets/profile/memcellar.png" width="1200" alt="MemCellar. A memory for coding agents, in Markdown and Git.">
   </picture>
 </a>
 
@@ -53,7 +46,7 @@ I build LLM agents and the systems around them: tool use, memory, evaluation and
   </picture>
 </a>
 
-Also: [LLM Experiments](https://github.com/brkakyldz/llm-experiments) · [Salon booking](https://github.com/brkakyldz/salon-booking-agent) · [Support router](https://github.com/brkakyldz/support-ticket-router) · [Issue triage](https://github.com/brkakyldz/github-issue-triage-agent)
+Also: [ArchDrawer](https://github.com/brkakyldz/ArchDrawer) · [LLM Experiments](https://github.com/brkakyldz/llm-experiments) · [Salon booking](https://github.com/brkakyldz/salon-booking-agent) · [Support router](https://github.com/brkakyldz/support-ticket-router) · [Issue triage](https://github.com/brkakyldz/github-issue-triage-agent)
 
 ### Usually working with
 
